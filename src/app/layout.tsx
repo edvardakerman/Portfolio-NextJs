@@ -1,8 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import Menlo from '@next/font/local'
+import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const menlo = Menlo({
+  src: [
+    {
+      path: '../../public/Menlo-Regular.ttf',
+      weight: '400'
+    },
+  ],
+})
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={menlo.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
