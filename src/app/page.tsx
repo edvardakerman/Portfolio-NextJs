@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="pb-1 sm:pb-0 sm:pt-20 pt-32" id='kontakt'>
+        <div className="pb-2 sm:pb-0 sm:pt-20 pt-32" id='kontakt'>
           <div className="sm:mb-20">
             <h1 className='text-4xl text-center text-shadow-lg shadow-neutral-950/40'>Kontakta mig</h1>
             <h4 className='text-sm text-center my-2 text-shadow-lg shadow-neutral-950/50'>Ser min portfolio intressant ut? Kontakta mig!</h4>

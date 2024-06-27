@@ -2,7 +2,7 @@ import React from 'react';
 
 const footer = () => {
     return (
-        <nav className='mt-24 sm:mt-16 py-3 px-5 mx-auto bg-white md:flex justify-between items-center border-t-2 shadow-xl rounded-b-lg'>
+        <nav className='mt-16 mb-1 sm:mt-16 py-6 px-5 mx-auto bg-white md:flex justify-between items-center border-t-2'>
             <div>
                 <a className='text-base cursor-pointer flex items-center 
       text-gray-800' href='#'>© 2024 Edvard Åkerman</a>
