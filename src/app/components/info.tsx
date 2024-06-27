@@ -14,8 +14,8 @@ type Props = {
 const info = (props: Props) => {
     return (
         <div>
-            <h1 className='text-xl mb-5 text-shadow-lg shadow-neutral-950/40'>{props.title}</h1>
-            <p className='mb-5 text-shadow-lg shadow-neutral-950/40'>
+            <h1 className='text-xl mb-5'>{props.title}</h1>
+            <p className='mb-5'>
                 {props.desc}
             </p>
             <Button color={props.class} icon={props.image} text={props.text} link={props.link} />
