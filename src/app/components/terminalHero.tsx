@@ -16,8 +16,8 @@ const Terminal = () => {
                 </div>
             </div>
             <div className="p-3">
-                <p className="text-sm sm:text-base text-neutral-600 dark:text-neutral-200 sm:pr-10">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-200 sm:pr-10">
+                👨‍💻 Full-stack developer and systems scientist-in-training, co-founder of a web development consultancy. Passionate about building innovative solutions and always exploring new tech. Whether it's coding sleek web apps or diving into complex systems, I'm all about pushing the boundaries of development. 🚀
                 </p>
             </div>
         </div>

@@ -10,7 +10,7 @@ const edvard = () => {
                 </div>
                 <div className="row-span-2 col-span-2 px-5 text-center lg:text-left my-4">
                     <h1 className='text-xl'>Edvard Åkerman</h1>
-                    <h4 className='text-l'>Webbutvecklare / Systemvetare</h4>
+                    <h4 className='text-l'>Webbdev / Systems scientist</h4>
                 </div>
                 <div className="row-span-1 col-span-2 pb-5 px-5 space-x-5">
                     <Button color="bg-zinc-700 hover:bg-zinc-800" icon="../git.png" text="Github" link="https://github.com/edvardakerman" />
