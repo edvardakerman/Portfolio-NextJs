@@ -1,4 +1,4 @@
-const Navbar = () => {
+const Menu = () => {
     return (
         <header className='w-[90%] py-3 px-5 mx-auto bg-white sticky top-0 z-50 sm:flex justify-between items-center border-b-2 mb-10 shadow-xl rounded-lg'>
             <div>
@@ -20,4 +20,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Menu
