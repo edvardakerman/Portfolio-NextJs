@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next";
 import "./globals.css";
 import Menlo from '@next/font/local'
