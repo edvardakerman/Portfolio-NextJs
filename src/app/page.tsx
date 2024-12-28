@@ -1,7 +1,8 @@
 import Terminal from './components/terminalHero';
-import Projects from './components/projectGallery';
-import Education from './components/eduGallery';
+import Gallery from './components/gallery';
 import Edvard from './components/edvard';
+import projects from './data/projects';
+import education from './data/education';
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
             <h4 className='text-sm text-center my-2 text-shadow-lg shadow-neutral-950/50'>Explore my GitHub for more details and to see the projects in action</h4>
           </div>
           <div className='flex justify-center items-center'>
-            <Projects />
+            <Gallery galleryItems={projects}/>
           </div>
         </div>
 
@@ -32,7 +33,7 @@ export default function Home() {
             <h4 className='text-sm text-center my-2'>Discover more about my educational background and the skills I've developed.</h4>
           </div>
           <div className='flex justify-center items-center'>
-            <Education />
+            <Gallery galleryItems={education} />
           </div>
         </div>
       </div >

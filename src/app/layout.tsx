@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Menlo from '@next/font/local'
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
 const menlo = Menlo({
