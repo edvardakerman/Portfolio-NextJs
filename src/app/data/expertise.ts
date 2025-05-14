@@ -21,7 +21,7 @@ const expertise: GalleryItem[] = [
     },]
   },
   {
-    title: "Objectorienterad utveckling",
+    title: "Objektorienterad utveckling",
     desc: "Genom flera kurser och egna projekt inom OOP har jag lärt mig att effektivt utveckla objektorienterade system. Mina erfarenheter har givit mig en bra förståelse för en klasstruktur med principer som inkapsling, arv och polymorfism. Därav kan jag både förstå och designa egna klasstrukturer, något som jag har tagit med mig in i mina projekt.",
     image: "../OOP.png",
     type: "image",

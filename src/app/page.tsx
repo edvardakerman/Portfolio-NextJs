@@ -57,7 +57,7 @@ export default function Home() {
           <span id='part-two'></span>
         </div>
 
-        <div className='2xl:pt-20'>
+        <div className='my-32 pt-28'>
           <div className="mb-20">
             <h1 className='text-3xl sm:text-4xl text-center text-shadow-lg shadow-neutral-950/40'>Del 2</h1>
           </div>
@@ -65,7 +65,6 @@ export default function Home() {
             <PartTwo />
           </div>
         </div>
-
       </div >
     </main>
   );

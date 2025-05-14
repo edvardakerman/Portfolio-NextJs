@@ -55,7 +55,7 @@ const projects: GalleryItem[] = [
     }]
   },
   {
-    title: "Etsik hackning i labb 🔐",
+    title: "Etisk hackning i labb 🔐",
     desc: "En labbserie där jag fick hacka i en sandlådsmiljö vilket gav mig goda kunskaper om vanligt förekommande sårbarheter och hot. Vi fick bland annat testa att utnyttja sårbarheter inom Cross Site Scripting, SQL-injektioner och Cross Site Request Forgery. Genom den praktiska erfarenheten av hur sårbarheter kan utnyttjas har jag nu en bra förståelse för hur man förebygger dem.",
     image: "../zap.png",
     type: "desktop",
