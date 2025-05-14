@@ -12,4 +12,13 @@ export interface GalleryItem {
         link: string;
         class: string;
     };
+    rating?: {
+        score: number;
+    };
+    tags?: ItemTags[]
+}
+
+export interface ItemTags {
+        text: string;
+        color: string;
 }

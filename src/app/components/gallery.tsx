@@ -4,6 +4,7 @@ import Desktop from './desktop';
 import Info from './info';
 import Button from './button';
 import { GalleryItem } from '../models/galleryItem';
+import StarRating from './StarRating';
 
 type Props = {
     galleryItems: GalleryItem[];
@@ -33,11 +34,17 @@ const gallery = ({ galleryItems }: Props) => {
                         {visualElement(galleryItem)}
                     </div>
                     <div className={`${isOdd(index + 1) ? "order-2 lg:text-left" : "lg:order-1 order-2 lg:text-right"} flex lg:w-1/2 m-auto flex-col text-sm text-center text-neutral-600 dark:text-neutral-200`}>
-                        <Info title={galleryItem.title} desc={galleryItem.desc} class={galleryItem.btnStyle} image={galleryItem.btnIcon} text={galleryItem.btnText} link={galleryItem.link} />
+                        <Info title={galleryItem.title} desc={galleryItem.desc} tags={galleryItem.tags} />
 
                         {galleryItem.extraBtn &&
                             <div className='my-2'>
                                 <Button color={galleryItem.extraBtn.class} text={galleryItem.extraBtn.text} link={galleryItem.extraBtn.link} />
+                            </div>
+                        }
+
+                        {galleryItem.rating &&
+                            <div className='my-2'>
+                                <StarRating filledStars={galleryItem.rating.score} />
                             </div>
                         }
                     </div>

@@ -3,69 +3,68 @@ import { GalleryItem } from "../models/galleryItem";
 const projects: GalleryItem[] = [
   {
     title: "MyAwesomeMovies.com 🍿",
-    desc: "The Watchlist project is a Next.js web application where users can sign up to explore movies and track them in personalized watchlists. It allows users to easily manage and organize films they plan to watch or have already seen.",
+    desc: "En webbapplikation som tillåter användare att både upptäcka och organisera sina filmer som de har eller ska se. Hemsidan visar exempel på mina kunskaper inom API:er, databaser, säker autentisering och frontendutveckling. Applikationen är byggd i NextJS med supabase som databas och använder sig av det öppna API:et tmdb.",
     image: "../mam.png",
-    link: "https://github.com/edvardakerman/Portfolio-NextJs",
     type: "desktop",
-    btnText: "Projekt Repo",
-    btnStyle: "bg-zinc-700 hover:bg-zinc-800",
-    btnIcon: "../git.png",
     extraBtn: {
       text: "MyAwesomeMovies.com",
       link: "https://myawesomeMovies.com",
       class: "bg-red-700 hover:bg-red-900"
-    }
+    },
+    tags: [{
+      text: "Web",
+      color: "bg-red-100 text-red-800"
+    }, {
+      text: "Database",
+      color: "bg-green-100 text-green-800"
+    }, {
+      text: "Security",
+      color: "bg-blue-100 text-blue-800"
+    },]
   },
   {
-    title: "Karallen 🪩",
-    desc: "Karallen is an object-oriented Java game built with JavaFX. In this game the player controls a character who tries to catch all the items while also avoiding the bouncer, offering intuitive controls and engaging gameplay.",
+    title: "Kårallen 🪩",
+    desc: "Kårallen är ett objektorienterat spel utvecklat i Java. Spelet låter användaren styra sin karaktär för att fånga dryck och samtidigt undvika väktaren till varje pris. Projektet visar på en god förmåga att utveckla program som följer en klasstruktur och användning av inkapsling, arv och polymorfism.",
     image: "../karallen.png",
-    link: "https://github.com/edvardakerman/Karallen",
     type: "desktop",
-    btnText: "Projekt Repo",
-    btnStyle: "bg-zinc-700 hover:bg-zinc-800",
-    btnIcon: "../git.png"
-  },
-  {
-    title: "Edvardakerman.com 🧑‍💻",
-    desc: "This portfolio website is built with Next.js and TypeScript, showcasing my work, skills, and projects. It provides an interactive and responsive experience, highlighting my expertise in web development and systems science.",
-    image: "../portfolio.png",
-    link: "https://github.com/edvardakerman/Portfolio-NextJs",
-    type: "desktop",
-    btnText: "Projekt Repo",
-    btnStyle: "bg-zinc-700 hover:bg-zinc-800",
-    btnIcon: "../git.png"
-  },
-  {
-    title: "Galaga 🚀",
-    desc: "The Galaga project is an object-oriented Java game built with JavaFX, inspired by the classic arcade shooter. Players control a spaceship to battle waves of enemies, with intuitive controls and retro-style gameplay.",
-    image: "../galaga.png",
-    link: "https://github.com/edvardakerman/galaga",
-    type: "desktop",
-    btnText: "Projekt Repo",
-    btnStyle: "bg-zinc-700 hover:bg-zinc-800",
-    btnIcon: "../git.png"
-  },
-  {
-    title: "Restaurant App 🍔",
-    desc: "The Restaurant Search App is a mobile application built with React Native, allowing users to search and filter restaurants based on price, ratings and food. It offers a simple and intuitive interface to help users find dining options that meet their preferences.",
-    image: "../foodfinder.png",
-    link: "https://github.com/edvardakerman/Restaurant-Search-App",
-    type: "phone",
-    btnText: "Projekt Repo",
-    btnStyle: "bg-zinc-700 hover:bg-zinc-800",
-    btnIcon: "../git.png"
+    tags: [{
+      text: "OOP",
+      color: "bg-yellow-100 text-yellow-900"
+    }, {
+      text: "Java",
+      color: "bg-orange-100 text-orange-800"
+    }, {
+      text: "Game",
+      color: "bg-purple-100 text-purple-800"
+    }]
   },
   {
     title: "Yatzy 🎲🎲🎲🎲🎲",
-    desc: "The Yahtzee game is a terminal-based, object-oriented Python project that supports 1-4 players, allowing for a fun multiplayer experience. Download this game and try it out to enjoy the classic dice game and challenge your friends.",
+    desc: "Ett yatzy-spel som stödjer upp till 4 användare, programmerat i python med fokus på objektorientering. Återigen visar detta projekt på en förståelse till OOP där principer som polymorfism nyttjas för att utveckla effektiva och eleganta system. Spelet visar dessutom på mina förmågor inom språket python.",
     image: "../yahtzee.png",
-    link: "https://github.com/edvardakerman/Yahzee",
     type: "desktop",
-    btnText: "Projekt Repo",
-    btnStyle: "bg-zinc-700 hover:bg-zinc-800",
-    btnIcon: "../git.png"
+    tags: [{
+      text: "OOP",
+      color: "bg-yellow-100 text-yellow-900"
+    }, {
+      text: "Python",
+      color: "bg-sky-100 text-sky-800"
+    }, {
+      text: "Game",
+      color: "bg-purple-100 text-purple-800"
+    }]
+  },
+  {
+    title: "Etsik hackning i labb 🔐",
+    desc: "En labbserie där jag fick hacka i en sandlådsmiljö vilket gav mig goda kunskaper om vanligt förekommande sårbarheter och hot. Vi fick bland annat testa att utnyttja sårbarheter inom Cross Site Scripting, SQL-injektioner och Cross Site Request Forgery. Genom den praktiska erfarenheten av hur sårbarheter kan utnyttjas har jag nu en bra förståelse för hur man förebygger dem.",
+    image: "../zap.png",
+    type: "desktop",
+    tags: [{
+      text: "Security",
+      color: "bg-blue-100 text-blue-800"
+    }]
   }
+
 ];
 
 export default projects;
